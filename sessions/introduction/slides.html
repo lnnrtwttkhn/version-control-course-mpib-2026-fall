@@ -270,7 +270,7 @@ Course at Max Planck Institute for Human Development<br>
 </section>
 <section id="schedule" class="slide level2">
 <h2>Schedule</h2>
-<div id="c5475f4a" class="cell" data-execution_count="1">
+<div id="41d07e7c" class="cell" data-execution_count="1">
 <div class="cell-output cell-output-display cell-output-markdown" data-execution_count="1">
 <table class="caption-top">
 <thead>
@@ -387,7 +387,7 @@ Course at Max Planck Institute for Human Development<br>
 </ul>
 <div class="fragment">
 <h3 id="example-cheatsheet-basic-git-commands">Example cheatsheet: Basic Git commands</h3>
-<div id="d6cfaed3" class="cell" data-execution_count="2">
+<div id="f5fa1e64" class="cell" data-execution_count="2">
 <div class="cell-output cell-output-display cell-output-markdown" data-execution_count="2">
 <table class="caption-top">
 <colgroup>
@@ -643,7 +643,7 @@ Course at Max Planck Institute for Human Development<br>
 <section id="what-can-we-do" class="slide level2">
 <h2>What can we do?</h2>
 <div class="fragment">
-<div id="043b5f54" class="cell" data-execution_count="3">
+<div id="313c4131" class="cell" data-execution_count="3">
 <div class="cell-output cell-output-display cell-output-markdown" data-execution_count="3">
 <table class="caption-top">
 <thead>
@@ -858,6 +858,56 @@ Course at Max Planck Institute for Human Development<br>
           display:block!important;
       }</style></aside>
 </section>
+<section id="why-git-matters-in-the-age-of-coding-agents" class="slide level2">
+<h2>Why Git matters in the age of coding agents</h2>
+<div class="fragment">
+<p><i class="fa-solid fa-robot" aria-label="robot"></i> <strong>Coding agents</strong> (e.g., <a href="https://code.claude.com/docs/en/overview">Claude Code</a>, <a href="https://github.com/features/copilot">GitHub Copilot</a>, <a href="https://openai.com/codex/">OpenAI Codex</a>, <a href="https://cursor.com/">Cursor</a>) edit dozens of files in minutes - far faster than we can read them.</p>
+</div>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="fragment">
+<h3 id="git-is-the-safety-net">Git is the safety net …</h3>
+<ul>
+<li><i class="fa-solid fa-clock-rotate-left" aria-label="clock-rotate-left"></i> <strong>Checkpoints:</strong> commit <em>before</em> you let an agent loose, so you can always go back</li>
+<li><i class="fa-solid fa-code-compare" aria-label="code-compare"></i> <strong>Reviewable changes:</strong> every agent edit becomes a diff you can read line by line</li>
+<li><i class="fa-solid fa-code-branch" aria-label="code-branch"></i> <strong>Isolation:</strong> one branch per agent task keeps <code>main</code> in a working state</li>
+<li><i class="fa-solid fa-timeline" aria-label="timeline"></i> <strong>Provenance:</strong> the history records what changed, when, and by whom - human or agent</li>
+</ul>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="fragment">
+<h3 id="and-the-context-agents-need">… and the context agents need</h3>
+<ul>
+<li><i class="fa-solid fa-book-open" aria-label="book-open"></i> Existing code, commit messages and <code>git log</code> teach agents your conventions</li>
+<li><i class="fa-solid fa-code-pull-request" aria-label="code-pull-request"></i> Agent work can be proposed, reviewed and merged like anyone else’s - e.g., as a pull request</li>
+<li><i class="fa-solid fa-plug" aria-label="plug"></i> The repository remains the stable interface between people, agents, editors and CI/CD - models and tools come and go</li>
+</ul>
+</div>
+</div></div>
+<div class="fragment">
+<p><strong>Bottom line:</strong> agents can write code fast, but Git is what makes their output <strong>checkable, reversible, and attributable</strong>.</p>
+</div>
+<aside class="notes">
+<ul>
+<li>Agents shift the bottleneck from <em>writing</em> code to <em>reviewing</em> code - and reviewing requires a diff, i.e., version control</li>
+<li>Ask the audience: who has already let a coding agent modify their code? How did you check what it changed?</li>
+<li>Practical habits: small commits with meaningful messages; one branch (or worktree) per agent run; review the diff before merging; keep secrets and large data out of the repo with <code>.gitignore</code></li>
+<li>Relevant for research: the history pins down the exact code state behind a result - independent of whether a human or an agent wrote it</li>
+<li>Discussion point: in a 2025 METR field experiment, experienced developers were ~19% <em>slower</em> with early AI coding tools while believing they were ~20% faster (<a href="https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/" class="uri">https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/</a>). Careful review of agent output therefore pays off.</li>
+<li>Not specific to Git: the same arguments hold for any version control system - Git is simply the de facto standard</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
 <section id="what-is-github" class="slide level2">
 <h2>What is GitHub?</h2>
 <div class="columns">
@@ -936,7 +986,7 @@ Course at Max Planck Institute for Human Development<br>
 </section>
 <section id="schedule-1" class="slide level2">
 <h2>Schedule</h2>
-<div id="bf494195" class="cell" data-execution_count="4">
+<div id="7adb773a" class="cell" data-execution_count="4">
 <div class="cell-output cell-output-display cell-output-markdown" data-execution_count="4">
 <table class="caption-top">
 <thead>
